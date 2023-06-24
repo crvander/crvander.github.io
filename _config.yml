@@ -15,6 +15,8 @@
 # General settings
 # ---------------------------------------------------------------------------------------
 
+baseurl: /testA
+
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
@@ -42,8 +44,8 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Carlos van der Ley
+  email:               lcricco@hotmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -73,8 +75,8 @@ menu:
 copyright:             © 2023. CREATIVA
 
 # Format of the permalinks
-# permalink:             /:categories/:year-:month-:day-:title/
-permalink:             /:categories/:title/
+permalink:             /:categories/:year-:month-:day-:title/
+# permalink:             /:categories/:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10

@@ -46,6 +46,37 @@ adder(2, 6);
 // > 8
 ~~~
 
+## code in R
+
+~~~R
+# Example can be run directly in your JavaScript console
+
+# Create a function that takes two arguments and returns the sum of those
+# arguments
+var adder = new Function("a", "b", "return a + b");
+
+# Call the function
+adder(2, 6);
+# > 8
+~~~
+
+## code in Python
+
+~~~python
+# Example can be run directly in your JavaScript console
+
+# Create a function that takes two arguments and returns the sum of those
+# arguments
+def function(a, b):
+  return a + b
+
+# Call the function
+adder = func(1, 2)
+
+adder
+# > 3
+~~~
+
 
 ## Math
 Lorem ipsum $$ f(x) = x^2 $$.
