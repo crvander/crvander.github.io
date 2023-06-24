@@ -69,7 +69,8 @@ menu:
 #     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2023. CREATIVA #All rights reserved.
+# copyright:             © 2021. All rights reserved.
+copyright:             © 2023. CREATIVA
 
 # Format of the permalinks
 # permalink:             /:categories/:year-:month-:day-:title/
@@ -84,7 +85,7 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.1.6
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -108,12 +109,11 @@ google_fonts:          Montserrat:200,200i,400,400i
 # To change font-weight, see _sass/variables.scss
 # font:                  Noto Sans, Helvetica, Arial, sans-serif
 font:                  Verdana, Helvetica, Arial, sans-serif
-# google_fonts:          Monterrat:200,200i,400,400i
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
+# font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 font_heading:          Montserrat, Helvetica, Arial, sans-serif
-# google_fonts:          Monterrat:100,100i
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
@@ -167,7 +167,7 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         mathjax
+  math_engine:         katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
@@ -224,7 +224,7 @@ hydejack:
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
-  no_page_style:       true #false
+  no_page_style:       false
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.

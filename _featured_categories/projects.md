@@ -18,5 +18,5 @@ slug: projects
 
 # Exclude this example category from the sitemap.
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
-# sitemap: true
+sitemap: false
 ---
