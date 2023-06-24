@@ -24,6 +24,11 @@
   font-weight: 100 !important;
 }
 
+// a.sidebar-title>h2.h1 {
+//   font-size: 1em !important;
+//   font-weight: 100 !important;
+// }
+
 .sidebar-about>a.sidebar-title::after {
   border-bottom: 0px !important;
 }
@@ -47,7 +52,7 @@ h2.h1 {
 h1.page-title {
   font-size: 32px;
   font-family: Verdana, sans-serif;
-  font-weight:100;
+  font-weight:100 !important;
   padding-bottom: 5px !important;
 }
 
@@ -72,6 +77,15 @@ time {
   // text-transform: uppercase;
   // width: 100%;
   // list-style: none;
+}
+
+span.ellipsis:nth-child(2) {
+  padding-top: 5px !important; 
+  font-size: 13px;
+}
+
+.page-title, .post-title {
+  font-size: 2em !important;
 }
 
 // hr.dingbat::after {
