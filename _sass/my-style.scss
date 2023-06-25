@@ -135,5 +135,13 @@ img#_swipe {
   cursor: pointer !important;
 }
 
+.content a:not(.btn):not(.no-hover) {
+  text-decoration-color: #cccccc;
+}
+
+.content a:not(.btn):not(.no-hover):hover {
+  text-decoration-color: #5A4F77;
+}
+
 
 
