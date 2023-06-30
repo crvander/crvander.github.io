@@ -145,4 +145,14 @@ img#_swipe {
 }
 
 
+@media (max-width: 768px) {
+  .content .avatar {
+    float: none !important;
+    display: block !important;
+    margin: 0 auto !important;
+
+  }
+}
+
+
 
