@@ -52,8 +52,8 @@ h2.h1 {
 
 h1.page-title {
   font-size: 32px;
-  font-family: Verdana, sans-serif;
-  font-weight:100 !important;
+  // font-family: Verdana, sans-serif;
+  font-weight:400 !important;
   padding-bottom: 5px !important;
 }
 
@@ -74,7 +74,8 @@ time {
   height: 1rem;
   margin: -1.5rem 0 .5rem;
   // padding: 0;
-  font-size: .75rem;
+  font-size: .8rem;
+  font-weight: bold;
   // color: var(--menu-text);
   // text-transform: uppercase;
   // width: 100%;
@@ -145,13 +146,20 @@ img#_swipe {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .content .avatar {
     float: none !important;
     display: block !important;
     margin: 0 auto !important;
-
   }
+
+  // h1.page-title {
+    // font-size: 32px;
+    // font-family: 'Montesserat', sans-serif !important;
+    // font-weight:400 !important;
+    // padding-bottom: 5px !important;
+  // }
+
 }
 
 
