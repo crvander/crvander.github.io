@@ -15,9 +15,9 @@
 # General settings
 # ---------------------------------------------------------------------------------------
 
-# url: https://crvander.github.io
+url: https://crvander.github.io
 # baseurl: /brainee-one
-url: https://brainee.one
+# url: https://brainee.one
 baseurl: ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
