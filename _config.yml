@@ -114,7 +114,8 @@ google_fonts:          Montserrat:200,200i,400,400i
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
 # font:                  Noto Sans, Helvetica, Arial, sans-serif
-font:                  Verdana, Helvetica, Arial, sans-serif
+# font:                  Verdana, Helvetica, Arial, sans-serif
+font:                  Raleway, Verdana, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
