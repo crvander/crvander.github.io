@@ -310,11 +310,11 @@ collections:
     output:            true
 
   featured_tags:
-    # permalink:         /tag-:name/
+    permalink:         /tag-:name/
     output:            true
 
   projects:
-    permalink:         /projects/:path/
+    # permalink:         /projects/:path/
     output:            true
 
 
