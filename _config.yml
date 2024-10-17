@@ -100,12 +100,12 @@ remote_theme: hydecorp/hydejack@v9.2.1 #9.1.6
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-# accent_color:          rgb(79,177,186)
+accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(226,48,48) #rgb(25,55,71) 
+theme_color:           rgb(25,55,71) 
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -432,7 +432,7 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        # path: /assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
           url: https://example.com
