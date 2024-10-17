@@ -79,8 +79,9 @@ menu:
 copyright:             © 2024. Carlos van der Ley
 
 # Format of the permalinks
-# permalink:             /:categories/:year-:month-:day-:title/
-permalink:             /:categories/:title/
+permalink:             /:categories/:year-:month-:day-:title/
+# permalink:             /:categories/:title/
+
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
