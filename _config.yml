@@ -15,11 +15,11 @@
 # General settings
 # ---------------------------------------------------------------------------------------
 
-url: https://crvander.github.io/jekyll_portfolio
+url: https://crvander.github.io/portfolio
 # baseurl: /brainee-one
 # url: https://brainee.one
 # baseurl: ''
-base_url: https://crvander.github.io/jekyll_portfolio
+base_url: https://crvander.github.io/portfolio
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
