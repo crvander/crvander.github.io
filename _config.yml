@@ -80,8 +80,7 @@ copyright:             © 2024. Carlos van der Ley
 
 # Format of the permalinks
 # permalink:             /:categories/:year-:month-:day-:title/
-# permalink:             /:categories/:title/
-permalink:             /:categories/
+permalink:             /:categories/:title/
 
 
 # Pagination configuration (used by the `blog` layout)
@@ -307,15 +306,15 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    # permalink:         /:name/
     output:            true
 
   featured_tags:
-    permalink:         /tag-:name/
+    # permalink:         /tag-:name/
     output:            true
 
   projects:
-    permalink:         /projects/:path/
+    # permalink:         /projects/:path/
     output:            true
 
 
