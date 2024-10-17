@@ -18,7 +18,7 @@
 url: https://crvander.github.io/portfolio
 # baseurl: /brainee-one
 # url: https://brainee.one
-baseurl: ''
+base_url: ''
 # base_url: https://crvander.github.io/portfolio
 
 # Language of your content in 2-letter code, e.g.: en, de.
