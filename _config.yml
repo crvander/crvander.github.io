@@ -314,7 +314,7 @@ collections:
     output:            true
 
   projects:
-    # permalink:         /projects/:path/
+    permalink:         /projects/:path/
     output:            true
 
 
