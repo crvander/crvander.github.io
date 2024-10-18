@@ -148,9 +148,9 @@ img#_swipe {
   text-decoration-color: #cccccc;
 }
 
-// .content a:not(.btn):not(.no-hover):hover {
-//   text-decoration-color: #5A4F77;
-// }
+.content a:not(.btn):not(.no-hover):hover { //replace the accent_color in _config.yml
+  text-decoration-color: #ffffff;
+}
 
 
 @media (max-width: 480px) {
